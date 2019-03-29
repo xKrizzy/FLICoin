@@ -2,7 +2,7 @@ pragma solidity ^0.4.24;
 
 // FLICoin
 // Krizzy 2019
-
+// 500000 == 50 Coins burned in transaction
 contract SafeMath {
     function safeAdd(uint a, uint b) public pure returns (uint c) {
         c = a + b;
